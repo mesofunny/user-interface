@@ -139,27 +139,43 @@ html {
 }
 html,
 body {
-  font-family: 'Ubuntu', sans-serif;
+  background-color: #FF6B6B;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 1.6rem;
+  color: #000000;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Russo One', sans-serif;
+h1 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 4rem;
 }
 h2 {
-  font-size: 3.2rem;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 4rem;
 }
 h3 {
-  font-size: 2.8rem;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 2.4rem;
 }
 p {
-  font-size: 1.6rem;
   line-height: 1.4;
 }
-.container {
+main {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+button {
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 2rem;
+}
+button .signIn {
+  background-color: #905BDF;
+}
+button .signUp {
+  background-color: #D12B20;
 }

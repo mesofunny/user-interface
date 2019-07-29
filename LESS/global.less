@@ -4,32 +4,56 @@
   }
   
   html {
-    font-size: 62.5%;
+    font-size: 62.5%; //meeting accessibility needs
   }
   
   html, body {
-    font-family: 'Ubuntu', sans-serif;
+    background-color: @backgroundColor;
+    font-family: @textFontFamily;
+    font-weight: @textFontWeight;
+    font-size: @textFontSize;
+    color: @textColor;
   }
   
-  h1, h2, h3, h4, h5 {
-    font-family: 'Russo One', sans-serif;
+  h1 {
+    font-family: @h1FontFamily;
+    font-weight: @h1FontWeight;
+    font-size: @h2FontSize;
   }
   
   h2 {
-    font-size: 3.2rem;
+    font-family: @h2FontFamily;
+    font-weight: @h2FontWeight;
+    font-size: @h2FontSize;
   }
   
   h3 {
-    font-size: 2.8rem;
+    font-family: @h3FontFamily;
+    font-weight: @h3FontWeight;
+    font-size: @h3FontSize;
   }
   
   p {
-    font-size: 1.6rem;
     line-height: 1.4;
   }
   
-  .container {
+  main {
     max-width: 800px;
     width: 100%;
     margin: 0 auto;  
+  }
+
+  button {
+    font-family: @buttonFontFamily;
+    font-weight: @buttonFontWeight;
+    font-size: @buttonFontSize;
+
+    .signIn {
+        background-color: @buttonSignIn;
+    }
+
+    .signUp {
+        background-color: @buttonSignUp;
+    }
+
   }
