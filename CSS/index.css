@@ -139,7 +139,7 @@ html {
 }
 html,
 body {
-  background-color: #FF6B6B;
+  background-color: #9F2219;
   font-family: Roboto;
   font-weight: Regular;
   font-size: 1.6rem;
@@ -206,4 +206,8 @@ header nav a {
 }
 header nav a:hover {
   color: skyblue;
+}
+main {
+  display: flex;
+  flex-flow: column wrap;
 }
