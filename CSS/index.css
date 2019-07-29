@@ -174,10 +174,10 @@ button {
   font-size: 2rem;
 }
 button .signIn {
-  background-color: #905BDF;
+  background-color: #6E2AD5;
 }
 button .signUp {
-  background-color: #D12B20;
+  background-color: #6E2AD5;
 }
 body {
   width: 1000px;
@@ -205,9 +205,25 @@ header nav a {
   padding: 0.5rem;
 }
 header nav a:hover {
-  color: skyblue;
+  color: #E0F9FF;
 }
-main {
+main section.brief {
   display: flex;
   flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+main section.brief p {
+  text-align: center;
+}
+main button {
+  background-color: #6E2AD5;
+  color: #FFFFFF;
+  border: 1px solid #6E2AD5;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+main img.mobileView {
+  width: 29%;
+  border: 1px solid white;
 }
