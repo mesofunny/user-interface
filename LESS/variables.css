@@ -1,0 +1,31 @@
+@desktopBackground: #FF6B6B;
+@buttonSignUp: #D12B20;
+@buttonSignIn: #905BDF;
+@buttonCWA: #DF668B;
+@mobileBackground: #F58B8B;
+@textColor: #000000(87%);
+@textFontFamily: Roboto;
+@textFontWeight: Regular;
+@textFontSize: 16pt;
+
+@h1FontFamily: Roboto;
+@h1FontWeight: bold;
+@h1FontSize: 60pt;
+
+@h2FontFamily: Roboto;
+@h2FontWeight: bold;
+@h2FontSize: 40pt;
+
+@h1FontFamily: Roboto;
+@h1FontWeight: Medium;
+@h1FontSize: 24pt;
+
+@buttonFontFamily: Roboto;
+@buttonFontWeight: Regular;
+@buttonFontSize: 20pt;
+
+/* 
+#FFD1D1
+#6819DF
+#FFD940
+*/
