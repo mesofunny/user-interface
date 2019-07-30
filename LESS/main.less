@@ -1,11 +1,5 @@
 main.index {
-    @media @tablet{
-        background: orange;
-    }
-
-    @media @phone{
-        background: black;
-    }
+   
     section.brief{
         display: flex;
         flex-flow: column wrap;
@@ -29,4 +23,12 @@ main.index {
         width: 29%;
         border: 1px solid white;
     }
+}
+
+@media @phone{
+    .brief{
+        padding: 5% 0;
+        width: 100%;
+    }
+
 }

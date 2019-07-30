@@ -183,10 +183,6 @@ header {
   justify-content: space-between;
   margin: 2rem 0;
 }
-header img {
-  border: 1px solid black;
-  width: 29%;
-}
 header nav {
   display: flex;
   justify-content: space-between;
@@ -201,14 +197,19 @@ header nav a {
 header nav a:hover {
   color: #E0F9FF;
 }
-@media screen and (max-width:800px) {
-  main.index {
-    background: orange;
-  }
-}
 @media screen and (max-width:500px) {
-  main.index {
-    background: black;
+  header {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  header nav {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  header nav a {
+    font-size: 2.5rem;
+    border-bottom: 0.5rem solid white;
   }
 }
 main.index section.brief {
@@ -230,6 +231,12 @@ main.index button {
 main.index img.mobileView {
   width: 29%;
   border: 1px solid white;
+}
+@media screen and (max-width:500px) {
+  .brief {
+    padding: 5% 0;
+    width: 100%;
+  }
 }
 .meetTeam {
   color: black;

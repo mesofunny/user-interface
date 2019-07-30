@@ -1,8 +1,5 @@
 header {
-    img{
-        border: 1px solid black;
-        width: 29%;
-    }
+    
     color: skyblue;
     display:flex;
     justify-content: space-between;
@@ -25,5 +22,19 @@ header {
 
         }
     }
-    
+    @media @phone{
+        display:flex;
+        flex-flow:column wrap;
+
+        nav{
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            a{
+                font-size: 2.5rem;
+                border-bottom: 0.5rem solid white;
+            }
+        }
+    }
 }
+
