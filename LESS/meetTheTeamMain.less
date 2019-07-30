@@ -1,29 +1,31 @@
-main {
+.meetTeam {
     display: flex;
     flex-flow: row wrap;
 
     section{
-        width: 400px;
-        height: 400px;
+        width: 20%;
+        height: 20%;
         position: relative;
         text-align: center;
         color: white;
         border:none;
+        margin: 2%;
+
+        &:hover{
+            .noDisplay{
+                display: block;
+            }
         
         img{
             width: 100%;
             height: auto;
-        }
-        
-        &:hover{
-            //position:absolute;
-            background-color:#000;
-            opacity:0.5;
-            //border-radius:30px;
-
-            .noDisplay{
-                display: block;
+            &:hover{
+                //position:absolute;
+                background-color:#000;
+                opacity:0.5;
+                //border-radius:30px;
             }
+        
         }
 
     }
