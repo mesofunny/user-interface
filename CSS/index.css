@@ -144,6 +144,8 @@ body {
   font-weight: Regular;
   font-size: 1.6rem;
   color: #FFFFFF;
+  height: 100%;
+  margin: 0 auto;
 }
 h1 {
   font-family: Roboto;
@@ -172,10 +174,6 @@ button {
   font-family: Roboto;
   font-weight: Regular;
   font-size: 2rem;
-}
-body {
-  width: 1000px;
-  margin: 0 auto;
 }
 header {
   color: skyblue;
@@ -212,31 +210,14 @@ header nav a:hover {
     border-bottom: 0.5rem solid white;
   }
 }
-main.index section.brief {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-main.index section.brief p {
-  text-align: center;
-}
-main.index button {
-  background-color: #A53B3C;
-  color: #FFFFFF;
-  border: 1px solid #A53B3C;
-  border-radius: 5px;
-  align-self: flex-end;
-}
-main.index img.mobileView {
-  width: 29%;
-  border: 1px solid white;
-}
-@media screen and (max-width:500px) {
-  .brief {
-    padding: 5% 0;
-    width: 100%;
-  }
+.background {
+  background-image: url("images/dogBackground.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .meetTeam {
   color: black;
