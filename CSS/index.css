@@ -201,23 +201,33 @@ header nav a {
 header nav a:hover {
   color: #E0F9FF;
 }
-main section.brief {
+@media screen and (max-width:800px) {
+  main.index {
+    background: orange;
+  }
+}
+@media screen and (max-width:500px) {
+  main.index {
+    background: black;
+  }
+}
+main.index section.brief {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
   align-items: center;
 }
-main section.brief p {
+main.index section.brief p {
   text-align: center;
 }
-main button {
+main.index button {
   background-color: #A53B3C;
   color: #FFFFFF;
   border: 1px solid #A53B3C;
   border-radius: 5px;
   align-self: flex-end;
 }
-main img.mobileView {
+main.index img.mobileView {
   width: 29%;
   border: 1px solid white;
 }
