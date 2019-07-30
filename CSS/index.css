@@ -236,6 +236,9 @@ main.index img.mobileView {
   display: flex;
   flex-flow: row wrap;
 }
+.meetTeam h6 {
+  display: none;
+}
 .meetTeam section {
   width: 20%;
   height: 20%;
@@ -245,6 +248,11 @@ main.index img.mobileView {
   border: none;
   margin: 2%;
 }
+.meetTeam section .modal-header .modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .meetTeam section img {
   width: 100%;
   height: auto;
@@ -253,15 +261,44 @@ main.index img.mobileView {
   background-color: #000;
   opacity: 0.5;
 }
-.meetTeam .noDisplay {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+@media screen and (max-width:800px) {
+  .meetTeam {
+    color: #FFFFFF;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .meetTeam section {
+    width: 30%;
+    height: 30%;
+    align-self: flex-start;
+  }
+  .meetTeam section .teamRole {
+    font-size: 1rem;
+    display: block;
+    padding: 2%;
+  }
+  .meetTeam section img {
+    border-radius: 5%;
+  }
 }
-.modal-header .modal-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media screen and (max-width:500px) {
+  .meetTeam {
+    color: #FFFFFF;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .meetTeam .teamRole {
+    font-size: 2rem;
+    display: block;
+    padding: 1%;
+  }
+  .meetTeam section {
+    width: 50%;
+    height: 50%;
+    align-self: center;
+  }
 }

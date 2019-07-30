@@ -3,6 +3,10 @@
     display: flex;
     flex-flow: row wrap;
 
+    h6{ //used for media queries, not desktop
+        display: none;
+    }
+
     section{
         width: 20%;
         height: 20%;
@@ -12,10 +16,13 @@
         border:none;
         margin: 2%;
 
-        // &:hover{
-        //     .noDisplay{
-        //         display: block;
-        //     }
+        .modal-header{
+            .modal-body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
         
         img{
             width: 100%;
@@ -31,22 +38,55 @@
 
     }
 
-    .noDisplay{
-        display: none;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    }
-
-
-.modal-header{
-    .modal-body{
+    @media @tablet{
+        color: @textColor;
         display: flex;
+        flex-flow: row wrap;
         justify-content: center;
         align-items: center;
+
+        section{
+            width: 30%;
+            height: 30%;
+            align-self: flex-start;
+
+            .teamRole{
+                font-size: 1rem;
+                display: block;
+                padding: 2%;
+            }
+
+        img{
+            border-radius: 5%;
+        }
+    }
+    }
+
+    @media @phone{
+        color: @textColor;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+
+        .teamRole{
+            font-size: 2rem;
+            display: block;
+            padding: 1%;
+        }
+
+        section{
+            width: 50%;
+            height: 50%;
+            align-self: center;
+    }
     }
 }
+
+
+
+
+
+
+
 
