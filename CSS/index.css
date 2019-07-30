@@ -143,7 +143,7 @@ body {
   font-family: Roboto;
   font-weight: Regular;
   font-size: 1.6rem;
-  color: #FFFFFF;
+  color: black;
 }
 h1 {
   font-family: Roboto;
@@ -254,4 +254,15 @@ main img.mobileView {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.modal-header {
+  color: black;
+}
+.modal-header .modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-header .modal-body p {
+  color: black;
 }
