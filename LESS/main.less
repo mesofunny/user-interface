@@ -1,34 +1,10 @@
-main.index {
-   
-    section.brief{
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: space-between;
-        align-items: center;
+.background{
+    background-image: url("images/dogBackground.jpg");
+    /* Full height */
+    height: 100%; 
 
-        p{
-            text-align: center;
-        }
-    }
-
-    button {
-        background-color: @buttonLearnMore;
-        color: @textColor;
-        border: 1px solid @buttonLearnMore;
-        border-radius: 5px;
-        align-self: flex-end;
-    }
-
-    img.mobileView{
-        width: 29%;
-        border: 1px solid white;
-    }
-}
-
-@media @phone{
-    .brief{
-        padding: 5% 0;
-        width: 100%;
-    }
-
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
