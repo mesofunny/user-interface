@@ -136,11 +136,11 @@ table {
 }
 html {
   font-size: 62.5%;
+  height: 100%;
 }
-html,
 body {
   background-color: #00668D;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: Regular;
   font-size: 1.6rem;
   color: #FFFFFF;
@@ -148,17 +148,17 @@ body {
   margin: 0 auto;
 }
 h1 {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: bold;
   font-size: 6rem;
 }
 h2 {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: bold;
   font-size: 4rem;
 }
 h3 {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: Medium;
   font-size: 2.4rem;
 }
@@ -171,7 +171,7 @@ main {
   margin: 0 auto;
 }
 button {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: Regular;
   font-size: 2rem;
 }
@@ -179,24 +179,28 @@ header {
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 header div {
   display: flex;
 }
 header div img {
-  width: 6rem;
-  padding-right: 5%;
+  width: 13%;
+  height: auto;
+  margin: 0% 5%;
 }
 header nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 40%;
+  margin-right: 4%;
 }
 header nav a {
   color: #FFFFFF;
   border: 1;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 2.4rem;
   padding: 0.5rem;
 }
 header nav a:hover {
