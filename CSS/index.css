@@ -150,7 +150,7 @@ body {
 h1 {
   font-family: Roboto;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 h2 {
   font-family: Roboto;
@@ -176,10 +176,17 @@ button {
   font-size: 2rem;
 }
 header {
-  color: skyblue;
+  color: #FFFFFF;
   display: flex;
   justify-content: space-between;
-  margin: 2rem 0;
+  margin: 1rem;
+}
+header div {
+  display: flex;
+}
+header div img {
+  width: 6rem;
+  padding-right: 5%;
 }
 header nav {
   display: flex;
