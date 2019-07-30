@@ -227,3 +227,33 @@ main img.mobileView {
   width: 29%;
   border: 1px solid white;
 }
+main {
+  display: flex;
+  flex-flow: row wrap;
+}
+main section {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  color: white;
+  border: none;
+}
+main section img {
+  width: 100%;
+  height: auto;
+}
+main section:hover {
+  background-color: #000;
+  opacity: 0.5;
+}
+main section:hover .noDisplay {
+  display: block;
+}
+main .noDisplay {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
