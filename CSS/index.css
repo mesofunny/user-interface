@@ -227,30 +227,28 @@ main img.mobileView {
   width: 29%;
   border: 1px solid white;
 }
-main {
+.meetTeam {
   display: flex;
   flex-flow: row wrap;
 }
-main section {
-  width: 400px;
-  height: 400px;
+.meetTeam section {
+  width: 20%;
+  height: 20%;
   position: relative;
   text-align: center;
   color: white;
   border: none;
+  margin: 2%;
 }
-main section img {
+.meetTeam section img {
   width: 100%;
   height: auto;
 }
-main section:hover {
+.meetTeam section img:hover {
   background-color: #000;
   opacity: 0.5;
 }
-main section:hover .noDisplay {
-  display: block;
-}
-main .noDisplay {
+.meetTeam .noDisplay {
   display: none;
   position: absolute;
   top: 50%;
