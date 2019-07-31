@@ -145,7 +145,7 @@ table {
   box-sizing: border-box;
 }
 html {
-  font-size: 46.875%;
+  font-size: 62.5%;
   height: 100%;
 }
 body {
@@ -241,6 +241,12 @@ header nav a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+main.contact {
+  font-size: 3rem;
+}
+main.contact section {
+  line-height: 2;
 }
 .meetTeam {
   color: black;
