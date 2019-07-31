@@ -1,4 +1,14 @@
 /* 
+
+UX Designer gave us sizes in pt,
+
+conversion via internet is 1px = .75pt
+
+currently 62.5% of 16px is 10 px, giving us 1.6 rem for 16 px, but we want
+
+16px * .75 = point
+*/
+/* 
 #FFD1D1
 #6819DF
 #FFD940
@@ -135,7 +145,7 @@ table {
   box-sizing: border-box;
 }
 html {
-  font-size: 62.5%;
+  font-size: 46.875%;
   height: 100%;
 }
 body {
@@ -164,6 +174,7 @@ h3 {
 }
 p {
   line-height: 1.4;
+  font-size: 4rem;
 }
 main {
   max-width: 800px;
@@ -235,7 +246,7 @@ header nav a:hover {
   display: flex;
   flex-flow: row wrap;
 }
-.meetTeam h6 {
+.meetTeam .teamRole {
   display: none;
 }
 .meetTeam section {
@@ -274,7 +285,6 @@ header nav a:hover {
     align-self: flex-start;
   }
   .meetTeam section .teamRole {
-    font-size: 1rem;
     display: block;
     padding: 2%;
   }
@@ -291,7 +301,6 @@ header nav a:hover {
     align-items: center;
   }
   .meetTeam .teamRole {
-    font-size: 2rem;
     display: block;
     padding: 1%;
   }
