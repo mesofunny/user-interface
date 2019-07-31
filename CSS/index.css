@@ -270,9 +270,11 @@ body.index {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 body.index .contact-div {
-  height: 90%;
+  position: absolute;
+  bottom: 10px;
 }
 main.contact {
   font-size: 3rem;
