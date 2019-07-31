@@ -1,7 +1,18 @@
+.meetTheTeamBanner{
+    width:100%;
+    height: 30%;
+    background: linear-gradient(@smileFaceMouth, @backgroundColor); /* w3c */
+    z-index: 20000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .meetTeam {
     color: black;
     display: flex;
     flex-flow: row wrap;
+    margin: 5% auto;
 
     .teamRole{ //used for media queries, not desktop
         display: none;
@@ -15,18 +26,11 @@
         color: white;
         border:none;
         margin: 2%;
-
-        .modal-header{
-            .modal-body{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-        }
         
         img{
             width: 100%;
             height: auto;
+            border-radius: 50%;
             &:hover{
                 //position:absolute;
                 background-color:#000;
@@ -46,18 +50,14 @@
         align-items: center;
 
         section{
-            width: 30%;
-            height: 30%;
-            align-self: flex-start;
+            width: 40%;
+            height: 40%;
+            margin: 2% 5%;
 
             .teamRole{
                 display: block;
                 padding: 2%;
             }
-
-        img{
-            border-radius: 5%;
-        }
     }
     }
 
