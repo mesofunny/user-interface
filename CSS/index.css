@@ -192,8 +192,6 @@ header {
   justify-content: space-between;
   padding: 1rem;
   background: #00668D;
-  position: fixed;
-  width: 100%;
 }
 header div {
   display: flex;
@@ -350,6 +348,10 @@ main.contact-page {
   font-size: 3rem;
   font-family: "Roboto";
   font-weight: Regular;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 }
 main.contact-page a {
   text-decoration: none;
@@ -364,10 +366,11 @@ main.contact-page a:hover {
   }
 }
 main.contact-page .form {
-  margin: 5% 0%;
+  margin: 5% auto;
 }
 main.contact-page .contact-info {
   line-height: 2;
+  text-align: center;
 }
 .meetTeam {
   color: black;
