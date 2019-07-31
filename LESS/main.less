@@ -1,13 +1,5 @@
 body.index{
-    background-image: url("images/dogBackground.jpg");
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background-color: @backgroundColor;
     .contact-div{
         position: absolute;
         bottom: 10px;
@@ -18,4 +10,48 @@ body.index{
     }
 }
 
+main{
+    display: flex;
+    flex-flow: column wrap;
+
+    .banner{
+        width:90%;
+        height: 30%;
+        background: url("images/indexBanner.png");
+        z-index: 20000;
+    }
+
+    h1{
+        justify-self: center;
+        align-self: center;
+    }
+
+    button{
+        justify-self: center;
+        align-self: center;
+        background-color: @buttonBackground;
+        text-align: center;
+    }
+
+    section.bubbles{
+        display: flex;
+        flex-flow: row nowrap;
+
+        .bubble{
+            width: 30%;
+            border-radius: 10%;
+            background: @bubbleBackground;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+
+            .author{
+                justify-self: flex-end;
+            }
+        }
+    }
+
+
+
+}
 

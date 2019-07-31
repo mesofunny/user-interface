@@ -191,7 +191,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  background: #00ABA6;
+  background: #007672;
 }
 header div {
   display: flex;
@@ -329,14 +329,7 @@ header nav a:hover {
   }
 }
 body.index {
-  background-image: url("images/dogBackground.jpg");
-  /* Full height */
-  height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background-color: #00ABA6;
 }
 body.index .contact-div {
   position: absolute;
@@ -344,6 +337,41 @@ body.index .contact-div {
 }
 body.index main {
   height: 81%;
+}
+main {
+  display: flex;
+  flex-flow: column wrap;
+}
+main .banner {
+  width: 90%;
+  height: 30%;
+  background: url("images/indexBanner.png");
+  z-index: 20000;
+}
+main h1 {
+  justify-self: center;
+  align-self: center;
+}
+main button {
+  justify-self: center;
+  align-self: center;
+  background-color: #A42B82;
+  text-align: center;
+}
+main section.bubbles {
+  display: flex;
+  flex-flow: row nowrap;
+}
+main section.bubbles .bubble {
+  width: 30%;
+  border-radius: 10%;
+  background: #3FC5AB;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+main section.bubbles .bubble .author {
+  justify-self: flex-end;
 }
 .contactBanner {
   width: 100%;
