@@ -299,31 +299,33 @@ body.index {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 body.index .contact-div {
-  height: 90%;
+  position: absolute;
+  bottom: 10px;
 }
-main.contact {
+main.contact-page {
   font-size: 3rem;
   font-family: "Roboto";
   font-weight: Regular;
 }
-main.contact a {
+main.contact-page a {
   text-decoration: none;
   color: #FFFFFF;
 }
-main.contact a:hover {
+main.contact-page a:hover {
   color: lightblue;
 }
 @media screen and (max-width:800px) {
-  main.contact {
+  main.contact-page {
     padding: 5%;
   }
 }
-main.contact .form {
+main.contact-page .form {
   margin: 5% 0%;
 }
-main.contact .contact {
+main.contact-page .contact-info {
   line-height: 2;
 }
 .meetTeam {
