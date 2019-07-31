@@ -244,6 +244,18 @@ header nav a:hover {
 }
 main.contact {
   font-size: 3rem;
+  font-family: "Roboto";
+  font-weight: Regular;
+}
+main.contact label {
+  font-size: 3rem;
+  padding: 1%;
+}
+main.contact textarea {
+  font-size: 2rem;
+}
+main.contact input {
+  font-size: 2rem;
 }
 main.contact section {
   line-height: 2;
