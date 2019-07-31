@@ -69,6 +69,39 @@ main{
             }
         }
     }
+
+    @media (max-width: 1200px){
+        section.bubbles{
+            display: flex;
+            flex-flow: column wrap;
+            margin: 2%;
+            justify-content: center;
+            align-items: center;
+    
+            .bubble{
+                margin: 5%;
+                width: 90%;
+                border-radius: 10%;
+                background: @bubbleBackground;
+                display: flex;
+                flex-flow: column wrap;
+                align-items: center;
+                padding: 3%;
+                justify-content: space-between;
+                p {
+                    font-size: 3.5rem;
+                    font-weight: bold;
+                }
+    
+                .author{
+                    justify-self: flex-end;
+                    font-size: 2.5rem;
+                    align-self: flex-end;
+                    
+                }
+            }
+        } 
+    }
 }
 
 
