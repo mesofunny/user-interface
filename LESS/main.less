@@ -12,8 +12,20 @@ body.index{
 
 main{
 
-    .banner{
-        width:100%;
+    .banner-info{
+        position: relative;
+        color: black;
+
+        .banner{
+            width: 100%;
+            display: block;
+        }
+        }
+
+    @media (max-width: 1300px){
+        .banner-info{
+            display: none;
+        }
     }
 
     h1{
@@ -51,8 +63,6 @@ main{
             }
         }
     }
-
-
-
 }
+
 

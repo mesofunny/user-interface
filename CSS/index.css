@@ -177,9 +177,8 @@ p {
   font-size: 4rem;
 }
 main {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
+  width: 65%;
+  margin: 2% auto;
 }
 button {
   font-family: "Roboto";
@@ -338,8 +337,18 @@ body.index .contact-div {
 body.index main {
   height: 81%;
 }
-main .banner {
+main .banner-info {
+  position: relative;
+  color: black;
+}
+main .banner-info .banner {
   width: 100%;
+  display: block;
+}
+@media (max-width: 1300px) {
+  main .banner-info {
+    display: none;
+  }
 }
 main h1 {
   text-align: center;
