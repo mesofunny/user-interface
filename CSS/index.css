@@ -268,9 +268,10 @@ header nav a:hover {
 .contact {
   color: #FFFFFF;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1rem;
   margin-top: 7%;
+  align-items: flex-end;
 }
 .contact nav {
   display: flex;
