@@ -3,10 +3,8 @@
     display:flex;
     justify-content:space-between;
     padding: 1rem;
+    margin-top: 7%;
 
-    span{
-        margin-top: 2%
-    }
     nav{
         display: flex;
         align-items: flex-end;
@@ -29,12 +27,44 @@
         }
     }
 
+    @media @tablet{
+        display: flex;
+        padding: 0%;
+        margin: 0%;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+
+        nav{
+            width: 90%;
+            padding: 0%;
+            margin: 0%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    @media @phone{
+        display: flex;
+        padding: 0%;
+        margin: 0%;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+
+        nav{
+            width: 90%;
+            padding: 0%;
+            margin: 0%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }  
 }
 
-@media @tablet{
-    
-}
 
-@media @phone{
-    
-}
+

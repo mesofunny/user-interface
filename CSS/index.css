@@ -192,6 +192,8 @@ header {
   justify-content: space-between;
   padding: 1rem;
   background: #00668D;
+  position: fixed;
+  width: 100%;
 }
 header div {
   display: flex;
@@ -270,9 +272,7 @@ header nav a:hover {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-}
-.contact span {
-  margin-top: 2%;
+  margin-top: 7%;
 }
 .contact nav {
   display: flex;
@@ -291,6 +291,44 @@ header nav a:hover {
 .contact nav a:hover {
   color: #E0F9FF;
 }
+@media screen and (max-width:800px) {
+  .contact {
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .contact nav {
+    width: 90%;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width:500px) {
+  .contact {
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .contact nav {
+    width: 90%;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 body.index {
   background-image: url("images/dogBackground.jpg");
   /* Full height */
@@ -304,6 +342,9 @@ body.index {
 body.index .contact-div {
   position: absolute;
   bottom: 10px;
+}
+body.index main {
+  height: 81%;
 }
 main.contact-page {
   font-size: 3rem;
