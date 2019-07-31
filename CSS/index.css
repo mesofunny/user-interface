@@ -190,10 +190,11 @@ header {
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
-  margin: 0.5rem;
+  margin: 1rem;
 }
 header div {
   display: flex;
+  align-items: center;
 }
 header div img {
   width: 13%;
