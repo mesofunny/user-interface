@@ -190,7 +190,8 @@ header {
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
-  margin: 1rem;
+  padding: 1rem;
+  background: #00668D;
 }
 header div {
   display: flex;
@@ -233,7 +234,7 @@ header nav a:hover {
     border-bottom: 0.5rem solid white;
   }
 }
-.background {
+body.index {
   background-image: url("images/dogBackground.jpg");
   /* Full height */
   height: 100%;
