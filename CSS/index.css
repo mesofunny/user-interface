@@ -247,6 +247,11 @@ main.contact {
   font-family: "Roboto";
   font-weight: Regular;
 }
+@media screen and (max-width:800px) {
+  main.contact {
+    padding: 5%;
+  }
+}
 main.contact label {
   font-size: 3rem;
   padding: 1%;
