@@ -209,6 +209,11 @@ header nav {
   width: 40%;
   margin-right: 4%;
 }
+@media (max-width: 1500px) {
+  header nav {
+    width: 65%;
+  }
+}
 header nav a {
   color: #FFFFFF;
   border: 1;
@@ -286,17 +291,10 @@ main.contact a:hover {
     padding: 5%;
   }
 }
-main.contact label {
-  font-size: 3rem;
-  padding: 1%;
+main.contact .form {
+  margin: 5% 0%;
 }
-main.contact textarea {
-  font-size: 2rem;
-}
-main.contact input {
-  font-size: 2rem;
-}
-main.contact section {
+main.contact .contact {
   line-height: 2;
 }
 .meetTeam {
