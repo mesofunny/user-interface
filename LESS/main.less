@@ -11,30 +11,27 @@ body.index{
 }
 
 main{
-    display: flex;
-    flex-flow: column wrap;
 
     .banner{
         width:100%;
     }
 
     h1{
-        justify-self: center;
-        align-self: center;
+        text-align: center;
     }
 
     button{
-        width: 100%;
-        justify-self: center;
-        align-self: center;
+        width: 15%;
         background-color: @buttonBackground;
         text-align: center;
-        margin: 2%;
+
     }
 
     section.bubbles{
         display: flex;
         flex-flow: row nowrap;
+        justify-content: space-between;
+        margin: 2%;
 
         .bubble{
             width: 30%;
@@ -43,9 +40,14 @@ main{
             display: flex;
             flex-flow: column wrap;
             align-items: center;
+            p {
+                font-size: 3.5rem;
+                font-weight: bold;
+            }
 
             .author{
                 justify-self: flex-end;
+                
             }
         }
     }

@@ -338,28 +338,22 @@ body.index .contact-div {
 body.index main {
   height: 81%;
 }
-main {
-  display: flex;
-  flex-flow: column wrap;
-}
 main .banner {
   width: 100%;
 }
 main h1 {
-  justify-self: center;
-  align-self: center;
+  text-align: center;
 }
 main button {
-  width: 100%;
-  justify-self: center;
-  align-self: center;
+  width: 15%;
   background-color: #A42B82;
   text-align: center;
-  margin: 2%;
 }
 main section.bubbles {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 2%;
 }
 main section.bubbles .bubble {
   width: 30%;
@@ -368,6 +362,10 @@ main section.bubbles .bubble {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+}
+main section.bubbles .bubble p {
+  font-size: 3.5rem;
+  font-weight: bold;
 }
 main section.bubbles .bubble .author {
   justify-self: flex-end;
