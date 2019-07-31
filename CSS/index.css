@@ -177,7 +177,7 @@ p {
   font-size: 4rem;
 }
 main {
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
@@ -343,20 +343,19 @@ main {
   flex-flow: column wrap;
 }
 main .banner {
-  width: 90%;
-  height: 30%;
-  background: url("images/indexBanner.png");
-  z-index: 20000;
+  width: 100%;
 }
 main h1 {
   justify-self: center;
   align-self: center;
 }
 main button {
+  width: 100%;
   justify-self: center;
   align-self: center;
   background-color: #A42B82;
   text-align: center;
+  margin: 2%;
 }
 main section.bubbles {
   display: flex;
