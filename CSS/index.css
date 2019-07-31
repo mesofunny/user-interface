@@ -240,10 +240,13 @@ header nav a:hover {
   justify-content: space-between;
   padding: 1rem;
 }
+.contact span {
+  margin-top: 2%;
+}
 .contact nav {
   display: flex;
-  justify-content: space-around;
   align-items: flex-end;
+  justify-content: flex-end;
   width: 40%;
   margin-right: 4%;
 }
