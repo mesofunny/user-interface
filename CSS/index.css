@@ -149,7 +149,7 @@ html {
   height: 100%;
 }
 body {
-  background-color: #00668D;
+  background-color: #00ABA6;
   font-family: "Roboto";
   font-weight: Regular;
   font-size: 1.6rem;
@@ -191,7 +191,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  background: #00668D;
+  background: #00ABA6;
 }
 header div {
   display: flex;
@@ -348,7 +348,7 @@ body.index main {
 .contactBanner {
   width: 100%;
   height: 30%;
-  background: linear-gradient(#00668D, #673AB7);
+  background: linear-gradient(#00ABA6, #673AB7);
   /* w3c */
   z-index: 20000;
   display: flex;
@@ -386,7 +386,7 @@ main.contact-page .contact-info {
 .meetTheTeamBanner {
   width: 100%;
   height: 30%;
-  background: linear-gradient(#EDB5C0, #00668D);
+  background: linear-gradient(#EDB5C0, #00ABA6);
   /* w3c */
   z-index: 20000;
   display: flex;
