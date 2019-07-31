@@ -411,11 +411,6 @@ main.contact-page .contact-info {
   border: none;
   margin: 2%;
 }
-.meetTeam section .modal-header .modal-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .meetTeam section img {
   width: 100%;
   height: auto;
