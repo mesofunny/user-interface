@@ -234,6 +234,29 @@ header nav a:hover {
     border-bottom: 0.5rem solid white;
   }
 }
+.contact {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.contact nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 40%;
+  margin-right: 4%;
+}
+.contact nav a {
+  color: #FFFFFF;
+  border: 1;
+  text-decoration: none;
+  font-size: 2.4rem;
+  padding: 0.5rem;
+}
+.contact nav a:hover {
+  color: #E0F9FF;
+}
 body.index {
   background-image: url("images/dogBackground.jpg");
   /* Full height */
@@ -242,6 +265,9 @@ body.index {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+body.index .contact-div {
+  height: 90%;
 }
 main.contact {
   font-size: 3rem;
