@@ -271,7 +271,6 @@ header nav a:hover {
   header nav a {
     width: 100%;
     font-size: 4rem;
-    border: 1px solid white;
   }
 }
 .contact {
@@ -428,6 +427,53 @@ main section.bubbles .bubble .author {
     font-weight: bold;
   }
   main section.bubbles .bubble .author {
+    justify-self: flex-end;
+    font-size: 2.5rem;
+    align-self: flex-end;
+  }
+}
+@media screen and (max-width:800px) {
+  main h1 {
+    display: none;
+  }
+  main .button {
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  main .button button {
+    color: #FFFFFF;
+    font-size: 3rem;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #9D0053;
+    text-align: center;
+    border: 1px solid #9D0053;
+  }
+  main section.bubbles {
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin: 2%;
+  }
+  main section.bubbles .bubble {
+    width: 100%;
+    border-radius: 50px;
+    background: #3FC5AB;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 5%;
+    justify-content: space-between;
+  }
+  main section.bubbles .bubble p {
+    padding: 2%;
+    font-size: 3rem;
+    text-align: center;
+  }
+  main section.bubbles .bubble .author {
+    padding-top: 20%;
     justify-self: flex-end;
     font-size: 2.5rem;
     align-self: flex-end;

@@ -107,6 +107,63 @@ main{
             }
         } 
     }
+
+    @media @tablet{
+        h1{
+            display: none;
+        }
+
+        .button {
+            margin-bottom: 10%;
+            text-align: center;
+            button{
+                color: @textColor;
+                font-size: 3rem;
+                width: 30%;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: @buttonBackground;
+                text-align: center;
+                border: 1px solid @buttonBackground;
+            }
+        }
+
+        section.bubbles{
+            width: 90%;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            margin: 2%;
+    
+            .bubble{
+                width: 100%;
+                border-radius: 50px;
+                background: @bubbleBackground;
+                display: flex;
+                flex-flow: column wrap;
+                align-items: center;
+                padding: 5%;
+                justify-content: space-between;
+    
+                p {
+                    padding: 2%;
+                    font-size: 3rem;
+                    text-align: center;
+                }
+    
+                .author{
+                    padding-top: 20%;
+                    justify-self: flex-end;
+                    font-size: 2.5rem;
+                    align-self: flex-end;
+                }
+            }
+        }
+
+
+    }
+
+    
 }
 
 
