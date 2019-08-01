@@ -334,9 +334,6 @@ body.index .contact-div {
   position: absolute;
   bottom: 10px;
 }
-body.index main {
-  height: 81%;
-}
 main .banner-info {
   position: relative;
   color: black;
