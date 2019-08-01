@@ -518,14 +518,20 @@ main.contact-page .contact-info {
   text-align: center;
 }
 .meetTheTeamBanner {
-  width: 100%;
-  height: 30%;
-  background: linear-gradient(#EDB5C0, #00ABA6);
-  /* w3c */
-  z-index: 20000;
+  width: 80%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 2% auto;
+  flex-flow: column wrap;
+  border: 1px solid white;
+  background: #00BBA6;
+}
+.meetTheTeamBanner h1 {
+  padding: 2%;
+  width: 80%;
+}
+.meetTheTeamBanner p {
+  width: 80%;
+  padding: 2%;
 }
 .meetTeam {
   color: black;
