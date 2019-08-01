@@ -495,18 +495,6 @@ main.contact-page a {
 main.contact-page a:hover {
   color: lightblue;
 }
-@media screen and (max-width:800px) {
-  main.contact-page {
-    padding: 5%;
-  }
-}
-main.contact-page .form {
-  margin: 5% auto;
-}
-main.contact-page .contact-info {
-  line-height: 2;
-  text-align: center;
-}
 .meetTheTeamBanner {
   width: 80%;
   display: flex;
@@ -522,6 +510,13 @@ main.contact-page .contact-info {
 .meetTheTeamBanner p {
   width: 80%;
   padding: 2%;
+}
+@media screen and (max-width:800px) {
+  .meetTheTeamBanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 .meetTeam {
   color: black;
