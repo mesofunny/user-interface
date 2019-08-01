@@ -488,12 +488,33 @@ main.contact-page {
   justify-content: center;
   align-items: center;
 }
+main.contact-page .smallerScreens {
+  display: none;
+}
 main.contact-page a {
   text-decoration: none;
   color: #FFFFFF;
 }
 main.contact-page a:hover {
   color: lightblue;
+}
+@media screen and (max-width:800px) {
+  main.contact-page iframe {
+    display: none;
+  }
+  main.contact-page .smallerScreens {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 2%;
+    font-size: 2rem;
+    margin: 5%;
+  }
+  main.contact-page .smallerScreens img {
+    width: 80%;
+    height: auto;
+    padding: 2%;
+  }
 }
 .meetTheTeamBanner {
   width: 80%;
