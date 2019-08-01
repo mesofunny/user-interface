@@ -487,6 +487,12 @@ main.contact-page {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  margin: 0% auto;
+}
+main.contact-page .contact-info {
+  line-height: 2;
+  font-size: 4rem;
+  margin-bottom: 10%;
 }
 main.contact-page .smallerScreens {
   display: none;
@@ -511,9 +517,8 @@ main.contact-page a:hover {
     margin: 5%;
   }
   main.contact-page .smallerScreens img {
-    width: 80%;
+    width: 100%;
     height: auto;
-    padding: 2%;
   }
 }
 .meetTheTeamBanner {
