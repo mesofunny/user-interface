@@ -249,6 +249,14 @@ header nav a:hover {
     align-items: center;
     justify-content: center;
   }
+  header nav a {
+    font-size: 7rem;
+    font-weight: bold;
+    padding: 2% 0%;
+    width: 100%;
+    text-align: center;
+    margin: 2% 0%;
+  }
 }
 @media screen and (max-width:500px) {
   header {
@@ -261,8 +269,8 @@ header nav a:hover {
     align-items: center;
   }
   header nav a {
-    font-size: 2.5rem;
-    border-bottom: 0.5rem solid white;
+    width: 100%;
+    font-size: 4rem;
   }
 }
 .contact {
@@ -351,15 +359,17 @@ main .banner-info .banner {
 }
 main h1 {
   text-align: center;
-  margin: 2%;
+  margin-top: 10%;
+  margin-bottom: 2%;
 }
 main .button {
+  margin-bottom: 10%;
   text-align: center;
 }
 main .button button {
   color: #FFFFFF;
   font-size: 3rem;
-  width: 11%;
+  width: 15%;
   padding: 10px;
   border-radius: 5px;
   background-color: #9D0053;
@@ -370,23 +380,25 @@ main section.bubbles {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  margin: 4%;
+  margin: 2%;
 }
 main section.bubbles .bubble {
   width: 30%;
-  border-radius: 10%;
+  border-radius: 50px;
   background: #3FC5AB;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
   justify-content: space-between;
 }
 main section.bubbles .bubble p {
-  font-size: 3.5rem;
-  font-weight: bold;
+  padding: 2%;
+  font-size: 3rem;
+  text-align: center;
 }
 main section.bubbles .bubble .author {
+  padding-top: 20%;
   justify-self: flex-end;
   font-size: 2.5rem;
   align-self: flex-end;
@@ -420,15 +432,52 @@ main section.bubbles .bubble .author {
     align-self: flex-end;
   }
 }
-.contactBanner {
-  width: 100%;
-  height: 30%;
-  background: linear-gradient(#00ABA6, #673AB7);
-  /* w3c */
-  z-index: 20000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media screen and (max-width:800px) {
+  main h1 {
+    display: none;
+  }
+  main .button {
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  main .button button {
+    color: #FFFFFF;
+    font-size: 3rem;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #9D0053;
+    text-align: center;
+    border: 1px solid #9D0053;
+  }
+  main section.bubbles {
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin: 2%;
+  }
+  main section.bubbles .bubble {
+    width: 100%;
+    border-radius: 50px;
+    background: #3FC5AB;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 5%;
+    justify-content: space-between;
+  }
+  main section.bubbles .bubble p {
+    padding: 2%;
+    font-size: 3rem;
+    text-align: center;
+  }
+  main section.bubbles .bubble .author {
+    padding-top: 20%;
+    justify-self: flex-end;
+    font-size: 2.5rem;
+    align-self: flex-end;
+  }
 }
 main.contact-page {
   font-size: 3rem;
@@ -438,6 +487,15 @@ main.contact-page {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  margin: 0% auto;
+}
+main.contact-page .contact-info {
+  line-height: 2;
+  font-size: 4rem;
+  margin-bottom: 10%;
+}
+main.contact-page .smallerScreens {
+  display: none;
 }
 main.contact-page a {
   text-decoration: none;
@@ -447,26 +505,44 @@ main.contact-page a:hover {
   color: lightblue;
 }
 @media screen and (max-width:800px) {
-  main.contact-page {
-    padding: 5%;
+  main.contact-page iframe {
+    display: none;
+  }
+  main.contact-page .smallerScreens {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 2%;
+    font-size: 2rem;
+    margin: 5%;
+  }
+  main.contact-page .smallerScreens img {
+    width: 100%;
+    height: auto;
   }
 }
-main.contact-page .form {
-  margin: 5% auto;
-}
-main.contact-page .contact-info {
-  line-height: 2;
-  text-align: center;
-}
 .meetTheTeamBanner {
-  width: 100%;
-  height: 30%;
-  background: linear-gradient(#EDB5C0, #00ABA6);
-  /* w3c */
-  z-index: 20000;
+  width: 80%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 2% auto;
+  flex-flow: column wrap;
+  border: 1px solid white;
+  background: #00BBA6;
+}
+.meetTheTeamBanner h1 {
+  padding: 2%;
+  width: 80%;
+}
+.meetTheTeamBanner p {
+  width: 80%;
+  padding: 2%;
+}
+@media screen and (max-width:800px) {
+  .meetTheTeamBanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 .meetTeam {
   color: black;
