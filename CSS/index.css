@@ -249,6 +249,14 @@ header nav a:hover {
     align-items: center;
     justify-content: center;
   }
+  header nav a {
+    font-size: 7rem;
+    font-weight: bold;
+    padding: 2% 0%;
+    width: 100%;
+    text-align: center;
+    margin: 2% 0%;
+  }
 }
 @media screen and (max-width:500px) {
   header {
