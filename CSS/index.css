@@ -341,6 +341,7 @@ main .banner-info {
 main .banner-info .banner {
   width: 100%;
   display: block;
+  border-radius: 50px;
 }
 @media (max-width: 1300px) {
   main .banner-info {
