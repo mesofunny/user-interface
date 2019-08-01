@@ -145,11 +145,11 @@ table {
   box-sizing: border-box;
 }
 html {
-  font-size: 62.5%;
+  font-size: 46.875%;
   height: 100%;
 }
 body {
-  background-color: #00668D;
+  background-color: #00ABA6;
   font-family: "Roboto";
   font-weight: Regular;
   font-size: 1.6rem;
@@ -177,9 +177,8 @@ p {
   font-size: 4rem;
 }
 main {
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
+  width: 65%;
+  margin: 1% auto;
 }
 button {
   font-family: "Roboto";
@@ -189,9 +188,10 @@ button {
 header {
   color: #FFFFFF;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1rem;
-  background: #00668D;
+  background: #00ABA6;
+  margin: 0% 5%;
 }
 header div {
   display: flex;
@@ -329,26 +329,101 @@ header nav a:hover {
   }
 }
 body.index {
-  background-image: url("images/dogBackground.jpg");
-  /* Full height */
-  height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background-color: #00ABA6;
 }
 body.index .contact-div {
   position: absolute;
   bottom: 10px;
 }
-body.index main {
-  height: 81%;
+main .banner-info {
+  position: relative;
+  color: black;
+}
+main .banner-info .banner {
+  width: 100%;
+  display: block;
+  border-radius: 50px;
+}
+@media (max-width: 1300px) {
+  main .banner-info {
+    display: none;
+  }
+}
+main h1 {
+  text-align: center;
+  margin: 2%;
+}
+main .button {
+  text-align: center;
+}
+main .button button {
+  color: #FFFFFF;
+  font-size: 3rem;
+  width: 11%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #9D0053;
+  text-align: center;
+  border: 1px solid #9D0053;
+}
+main section.bubbles {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 4%;
+}
+main section.bubbles .bubble {
+  width: 30%;
+  border-radius: 10%;
+  background: #3FC5AB;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 3%;
+  justify-content: space-between;
+}
+main section.bubbles .bubble p {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+main section.bubbles .bubble .author {
+  justify-self: flex-end;
+  font-size: 2.5rem;
+  align-self: flex-end;
+}
+@media (max-width: 1200px) {
+  main section.bubbles {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.bubbles .bubble {
+    margin: 5%;
+    width: 90%;
+    border-radius: 10%;
+    background: #3FC5AB;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 3%;
+    justify-content: space-between;
+  }
+  main section.bubbles .bubble p {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  main section.bubbles .bubble .author {
+    justify-self: flex-end;
+    font-size: 2.5rem;
+    align-self: flex-end;
+  }
 }
 .contactBanner {
   width: 100%;
   height: 30%;
-  background: linear-gradient(#00668D, #673AB7);
+  background: linear-gradient(#00ABA6, #673AB7);
   /* w3c */
   z-index: 20000;
   display: flex;
@@ -386,7 +461,7 @@ main.contact-page .contact-info {
 .meetTheTeamBanner {
   width: 100%;
   height: 30%;
-  background: linear-gradient(#EDB5C0, #00668D);
+  background: linear-gradient(#EDB5C0, #00ABA6);
   /* w3c */
   z-index: 20000;
   display: flex;
