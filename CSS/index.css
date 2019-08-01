@@ -188,9 +188,10 @@ button {
 header {
   color: #FFFFFF;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1rem;
   background: #00ABA6;
+  margin: 0% 5%;
 }
 header div {
   display: flex;
