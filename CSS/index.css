@@ -357,15 +357,20 @@ main .button {
   text-align: center;
 }
 main .button button {
-  width: 15%;
+  color: #FFFFFF;
+  font-size: 3rem;
+  width: 11%;
+  padding: 10px;
+  border-radius: 5px;
   background-color: #9D0053;
   text-align: center;
+  border: 1px solid #9D0053;
 }
 main section.bubbles {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  margin: 2%;
+  margin: 4%;
 }
 main section.bubbles .bubble {
   width: 30%;

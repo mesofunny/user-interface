@@ -32,17 +32,21 @@ main{
     .button {
         text-align: center;
         button{
-            width: 15%;
+            color: @textColor;
+            font-size: 3rem;
+            width: 11%;
+            padding: 10px;
+            border-radius: 5px;
             background-color: @buttonBackground;
             text-align: center;
-
+            border: 1px solid @buttonBackground;
         }
     }
     section.bubbles{
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
-        margin: 2%;
+        margin: 4%;
 
         .bubble{
             width: 30%;
